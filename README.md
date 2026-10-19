@@ -1,7 +1,7 @@
 # Nordic RT — Real-Time Architectural Experience
 
-🔗 Live Demo: https://nordic-rt.pure-art.co/  
-📖 Full Case Study: https://pure-art.co/pages/Subpages/3d-viewer-02.html  
+🔗 Live Demo: https://nordic-rt.nourtin.com/  
+📖 Full Case Study: https://nourtin.com/pages/Subpages/nordic-rt-webgl-architecture.html  
 
 Real-time architectural visualization built with Three.js, focused on lighting, atmosphere, and performance across devices.
 
@@ -69,7 +69,7 @@ The goal was not only to present a villa, but to deliver a complete interactive 
 
 ## Outcome
 
-A production-ready WebGL system demonstrating that high-quality architectural visualization can run smoothly in the browser — including mobile devices — without sacrificing performance or usability.
+A portfolio WebGL system demonstrating that high-quality architectural visualization can run smoothly in the browser — including mobile devices — without sacrificing performance or usability.
 
 ---
 
@@ -77,3 +77,9 @@ A production-ready WebGL system demonstrating that high-quality architectural vi
 
 This repository is a simplified case study.  
 Full implementation details are available in the external case study linked above.
+
+## Scope and measurement notes
+
+This repository contains documentation and screenshots, not the complete application source or licensed assets. Performance figures are snapshots from particular test conditions and are not guarantees across devices, networks, cache states, or scene modes. Initial interaction, startup, and fully loaded time describe different milestones.
+
+[Author: Nour Altinawi — Nourtin](https://nourtin.com/)
