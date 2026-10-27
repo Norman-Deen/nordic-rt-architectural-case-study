@@ -1,85 +1,129 @@
-# Nordic RT — Real-Time Architectural Experience
+# Nordic RT — Architectural Exploration & Model Inspection
 
-🔗 Live Demo: https://nordic-rt.nourtin.com/  
-📖 Full Case Study: https://nourtin.com/pages/Subpages/nordic-rt-webgl-architecture.html  
+[**Explore the live experience →**](https://nordic-rt.nourtin.com/) · [Nour Altinawi / Nourtin](https://nourtin.com/)
 
-Real-time architectural visualization built with Three.js, focused on lighting, atmosphere, and performance across devices.
+An interactive architectural experience bringing **material exploration, model inspection, architectural views and illustrated project context** into the browser.
 
-![Nordic RT](images/nordic-rt-09.png)
+**Role:** Browser-based 3D development, material and lighting presentation, camera interaction, responsive interface design and architectural inspection tools.
+
+**Platform:** Desktop and mobile web.
+
+**Built with:** Three.js / WebGL, JavaScript, Vite, HTML and CSS.
+
+![Nordic RT exterior presentation with the villa, landscape and viewer controls](images/viewer-current.webp)
+
+## The project
+
+Nordic RT presents a contemporary villa as a place to explore. Visitors can examine its exterior, compare finishes, study its form in Clay mode, move between architectural views and open explanations connected to visible building details.
+
+The experience connects the 3D presentation with the drawings included in the viewer. The aim is to make the relationship between appearance, proportion, materials and architectural context easier to understand within one browser experience.
+
+## Experience at a glance
+
+| Area | What the visitor can do |
+| --- | --- |
+| Exterior exploration | Rotate and zoom around the villa and its landscaped setting. |
+| Material finishes | Compare wood, concrete, glass, aluminium and planter finishes directly on the model. |
+| Clay inspection | Study the main villa with a neutral finish, edge outlines and model dimensions. |
+| Architectural views | Choose Front, Rear, Left, Right or Top. |
+| Section presentation | Switch to a separate architectural section view. |
+| Contextual details | Open eight illustrated architectural explanations from points shown during Clay inspection. |
+| Project drawings | Read the overview alongside perspective, plan, facade, section and site drawings. |
+| Mobile viewing | Use touch-oriented controls, compact drawers and fullscreen where supported. |
+
+## 1. Explore materials in context
+
+The Materials drawer groups the exterior finishes into clear families. Visitors can compare different wood, concrete, glass and aluminium appearances, together with the finish of the integrated planters.
+
+Choices remain connected to the building in the scene, so materials can be judged alongside the facade, glazing and landscape rather than as isolated samples.
+
+![Material families displayed in the drawer beside the villa](images/materials-current.webp)
+
+## 2. Inspect the architectural form
+
+Clay mode gives the main villa a neutral presentation with restrained edge outlines. Overall and selected element dimensions appear around the model, while interactive points provide access to more specific architectural explanations.
+
+The inspection remains available when the drawer closes, leaving more of the building visible.
+
+![Clay presentation of the main villa with edge outlines, model dimensions and interactive detail points](images/clay-current.webp)
+
+*Dimensions describe the 3D model in metres. They are visual model annotations, not certified survey measurements, construction dimensions or a BIM deliverable.*
+
+## 3. Compare architectural views
+
+Front, Rear, Left and Right offer repeatable views of the facade composition. Top adds an overhead reading of the roof and footprint. Camera transitions keep movement continuous between selected views.
+
+Visitors can choose a view while keeping the Materials drawer open, then continue exploring the exposed scene.
+
+| Front view | Top view |
+| --- | --- |
+| ![Front view showing the composition of the villa facade](images/front-current.webp) | ![Top view showing the roof and footprint of the villa](images/top-current.webp) |
+
+## 4. Read the section presentation
+
+The section view offers another way to understand the model's spatial composition and the relationship between its levels and visible spaces.
+
+It is a separate presentation of the architectural model. The exterior Clay tools and material choices belong to the main villa view.
+
+![Architectural section presentation shown inside the viewer](images/section-current.webp)
+
+## 5. Connect details and drawings to the model
+
+During Clay inspection, eight points connect visible parts of the villa to concise explanations and architectural illustrations. Topics include glazing, the recessed entrance, steps, balcony, facade slats, entrance fins and the integrated landscape border.
+
+The information stays within the viewer, giving visitors a closer explanation without losing the context of the building.
+
+![An architectural detail explanation opened from a point on the model](images/detail-current.webp)
+
+*Detail-panel images are illustrative architectural examples, not documentary photographs of a completed building or interchangeable model components.*
+
+The Project Overview drawer complements the scene with the presentation drawings included in the experience. Its text follows the villa's architectural character, plan organisation, facade composition, sections and site context.
+
+![Project Overview with an architectural drawing and explanation beside the viewer](images/drawings-current.webp)
+
+## 6. Explore on desktop and mobile
+
+Desktop and mobile layouts keep the main controls close to the scene. On smaller screens, compact material groups, aligned samples and dedicated view buttons help visitors explore the available options.
+
+Touch rotation and zoom support direct navigation. Fullscreen is available where the browser supports it, with landscape orientation requested where permitted. In mobile landscape detail panels, the illustration and explanation appear side by side.
+
+<p align="center">
+  <img src="images/mobile-current.webp" width="300" alt="Nordic RT in a portrait mobile viewport with touch-oriented controls">
+  &nbsp;&nbsp;
+  <img src="images/mobile-materials-current.webp" width="300" alt="Compact material families in the portrait mobile drawer">
+</p>
+
+*Mobile captures use browser viewport emulation. They show interface layout, not physical-phone performance validation.*
+
+## My contribution
+
+- Developed the browser-based architectural experience and connected its visual controls to the villa.
+- Refined the material, lighting and camera presentation.
+- Built the exterior Clay inspection, edge outlines and model-dimension annotations.
+- Added the four facade views, Top view and section interaction.
+- Connected model detail points to illustrated architectural explanations.
+- Designed the Materials, Project Overview and About drawers across desktop and mobile layouts.
+- Refined transitions, input handling and the overall viewing experience.
+
+Nordic RT brings together **architectural visualization experience, frontend development and interactive 3D presentation**.
+
+## Why it matters
+
+Architectural communication involves both the overall impression and the details that explain it. Bringing material choices, repeatable views, model annotations and contextual drawings into one experience gives a project team or prospective client several ways to understand the same design.
+
+This is a portfolio demonstration of that approach. It does not claim measured commercial outcomes or replace professional architectural documentation.
+
+## Try the experience
+
+1. Open **Materials** and compare the exterior finishes.
+2. Enable **Clay** to inspect the form, dimensions and detail points.
+3. Choose **Front**, **Rear**, **Left**, **Right** or **Top**.
+4. Try the section view, then open **Project Overview** to explore the included drawings.
+
+[**Open Nordic RT ?**](https://nordic-rt.nourtin.com/)
 
 ---
 
-## Key Results
+**About this repository:** A public portfolio presentation containing descriptions and screenshots captured from the published application on 27 October 2026. Application source, models, original asset packages and private engineering documentation are excluded. Images are viewer captures compressed for this page; they contain no developer diagnostics. Feature availability and fullscreen behavior depend on the viewing environment.
 
-- 6 High-Fidelity Villas in a single real-time scene  
-- ~2.5s initial load time  
-- Stable ~60 FPS on mid-range mobile devices  
-- Phase-based adaptive loading system  
-- Real-time material interaction system  
-
----
-
-## Performance Proof
-
-![Performance](images/nordic-rt-performance-proof.webp)
-
-Measured directly inside the application using real-time diagnostics:
-
-- Stable ~60 FPS under full scene load  
-- AvgFPS ~62 on tested Android devices  
-- Adaptive pixel ratio system  
-- Interactive in ~0.9s · Fully loaded in ~7.7s  
-
----
-
-## Screenshots
-
-### Exterior & Environment
-![Daylight exterior view](images/nordic-rt-08.png)
-![Landscape and environment view](images/nordic-rt-12.webp)
-
-### Interactive Features
-![Material configurator](images/nordic-rt-04.png)
-![System and loading flow](images/nordic-rt-05.png)
-![Real-time cut section view](images/nordic-rt-15.webp)
-
-### Materials & Details
-![Architectural facade detail](images/nordic-rt-01.png)
-![Material and lighting close-up](images/nordic-rt-11.webp)
-
----
-
-## Project Overview
-
-Nordic RT is a performance-driven real-time 3D architectural system built for the web.
-
-The goal was not only to present a villa, but to deliver a complete interactive experience that remains stable across desktop and mobile devices.
-
----
-
-## Core Systems
-
-- Phase-based adaptive loading pipeline  
-- Runtime performance-driven rendering decisions  
-- Real-time material switching system  
-- Controlled environment and lighting system  
-- Scalable multi-villa scene design  
-
----
-
-## Outcome
-
-A portfolio WebGL system demonstrating that high-quality architectural visualization can run smoothly in the browser — including mobile devices — without sacrificing performance or usability.
-
----
-
-## Notes
-
-This repository is a simplified case study.  
-Full implementation details are available in the external case study linked above.
-
-## Scope and measurement notes
-
-This repository contains documentation and screenshots, not the complete application source or licensed assets. Performance figures are snapshots from particular test conditions and are not guarantees across devices, networks, cache states, or scene modes. Initial interaction, startup, and fully loaded time describe different milestones.
-
-[Author: Nour Altinawi — Nourtin](https://nourtin.com/)
+Browser 3D experience by [Nour Altinawi ? Nourtin](https://nourtin.com/).
